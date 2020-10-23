@@ -1,0 +1,378 @@
+
+   	body{
+   
+
+      /*height:100%;
+      min-height: 100%;
+      position:relative; 				
+   		/*margin-top: 10px;*/
+   	}
+
+    html{
+      /*height:100%;
+      min-height: 100%;
+      position: relative;*/
+    }
+    .abg-transformacao{
+    background-image: url(img/bg-estrategia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1; 
+    content: ' ';
+    position: relative;
+    }
+
+    .bg-sobre{
+      margin-top: -150px;
+    background-color: #2a7fa6;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;    
+   
+    }
+
+    .bg-header{
+    background-image: url(img/bgpraia4.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center top;		
+		margin-bottom: 0px;
+		min-height: 325px;  
+
+    }
+
+    .bg-homepage{
+    background-image: url(img/home-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;    
+    margin-bottom: 0px;
+    min-height: 1358px;
+    z-index: -1;
+    }
+
+
+    .bg-solucoes{
+    background-image: url(img/topo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;    
+    margin-bottom: 0px;
+    min-height: 700px;
+    z-index: -1;
+    }
+
+    .bg-solucoes-menu{
+    background-image: url(img/maos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;    
+    margin-bottom: 0px;
+    min-height: 700px;
+    z-index: -1;
+    }
+
+
+
+    .bg-header-estrategia{
+    background-image: url(img/estrategia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+
+    .bg-header-estrategia-transformacao{
+    background-image: url(img/estrategia-transformacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+    .bg-header-transformacao-digital{
+    background-image: url(img/transformacao-digital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+
+    #sobre-a-laporte{
+    background-image: url(img/bg-sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+   
+  }  
+
+   	.borda{
+   		border:solid 1px red;   		
+   	}
+    .caixa-solucoes{     
+      padding: 10px 30px;
+      border-radius: 0.75rem !important; 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: relative;
+      background-color: blue;
+    }
+   	.caixa{
+      height: 246px;
+   		padding: 20px 30px;
+      border-radius: 0.75rem !important; 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      position: relative;  
+    }
+
+    .caixa:hover{
+      top: -1px;
+      
+    }
+    .icone-contato{
+      font-size:25px;
+    }
+
+    .box-orange{
+      height: 250px;
+      width: 25%;
+      background-color: #FC7608; 
+      z-index: 2; 
+    }
+
+    .orange-iten{
+      color: #FC7608;
+    }
+
+    .azul-logo{
+      color: #215972;
+    }
+
+    .border-orange-page{
+      width: 35%;
+      border-color:#FC7608 !important;  
+      margin-bottom: : 5px;
+    }
+
+    .branco{
+      color: #fff;      
+    }
+    .azul-titulos{
+      color: #6f6d70;
+    }
+  .check-ul {
+    list-style-type:'\2713';
+  } 	
+
+	a{
+		color: #215972;
+		/*line-height: 50px;*/
+	}
+	h1{
+		color: #215972;
+	}
+  .img-logo-paginas{
+    width: 80px;
+
+  }
+  .bg-branco{
+    background-color:rgb(255,255,255);
+  }
+	.capa{
+		color: #215972;
+		font-size: 1.1em;
+	}
+
+.btn-danger {
+  color: #fff;
+  background-color: #215972;
+  border-color: #215972;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #599035;
+  border-color: #599035;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  box-shadow: 0 0 0 0.2rem rgba(89, 143, 53, 0.5);
+}
+
+.btn-danger.disabled, .btn-danger:disabled {
+  color: #fff;
+  background-color: #599035;
+  border-color: rgb(217,217,217);
+}
+
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
+.show > .btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #599035;
+  border-color: rgb(217,217,217);
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(217,217,217, 0.5);
+}
+footer {
+	color: #fff;
+	background:#1f4e79 ;
+	padding: 20px 0px 50px 0px;
+  width:100%;
+  margin-top:auto;
+}
+footer a{
+	color:#fff;
+}
+
+.links-footer a:hover{
+	text-decoration-line: none;
+	color:#fff;
+	border-bottom: 3px solid rgb(217,217,217);
+	padding-bottom: 1px;
+}
+
+.icones a:hover{
+  text-decoration-line: none;
+  color: green;
+
+}
+footer ul{
+  list-style: none;
+}
+
+}
+footer ul li a{
+color: #fff;
+}
+footer ul li a:hover{
+color: #599035;
+}
+
+.wid-80{
+  max-width: 80%;
+}
+.wid-90{
+  max-width: 90%;
+}
+.wid-100{
+	max-width: 100%;
+}
+
+.fs-14{
+	font-size: 1.4em;
+}
+.fs-13{
+  font-size: 1.3em;
+}
+.bg-azul-claro{
+	background-color:rgb(175,206,235);
+}
+.bg-azul-escuro{
+	background-color:rgb(33,83,113);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(217,217,217);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 3px solid #215972;
+    line-height: 25px;
+    padding-bottom: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    border-bottom: 3px solid rgb(217,217,217);
+    line-height: 25px;
+    padding-bottom: 3px;    
+}
+
+.navbar-light .navbar-toggler {       
+    color: rgba(217,217,217,1);
+    border-color: rgba(217,217,217,1);
+    border: 1px solid ;
+}
+
+
+
+.navbar-primary .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 3px solid #215972;
+    line-height: 25px;
+    padding-bottom: 3px;
+}
+
+.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color:#007bff;
+    text-shadow: 1px ;
+    line-height: 25px;
+    padding-bottom: 3px;    
+}
+
+.navbar-primary .navbar-toggler {       
+    color: rgba(217,217,217,1);
+    border-color: rgba(217,217,217,1);
+    border: 1px solid ;
+}
+S
+
+/*.dropdown-item:hover, .dropdown-item:focus {
+  color: #599035;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #215972;
+}
+
+.dropdown-item.disabled, .dropdown-item:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}*/
+
+
+
+@keyframes opacidade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+.anima{
+  animation-name: opacidade;
+  animation-duration: 4s;  
+  animation-timing-function: ease-in;
+}
+
+
+
+.w3-animate-left{
+  position:relative;
+  animation:animateleft 2s
+}
+  @keyframes animateleft{
+    from{
+      left:-300px;
+      opacity:0
+    } 
+      to{
+        left:0;
+        opacity:1
+      }
+  }
+/*
+  #215972 azul logo
+  #599035 verde
+  #f8f9fa bg light
+*/
