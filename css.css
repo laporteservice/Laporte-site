@@ -27,7 +27,7 @@
     }
 
     .bg-sobre{
-      margin-top: -150px;
+    background-image: url(img/bg-sobre.jpg);
     background-color: #2a7fa6;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -174,10 +174,7 @@
 		color: #215972;
 		/*line-height: 50px;*/
 	}
-	h1{
-		color: #215972;
-	}
-  .img-logo-paginas{
+	  .img-logo-paginas{
     width: 80px;
 
   }
@@ -224,7 +221,7 @@
 }
 footer {
 	color: #fff;
-	background:#1f4e79 ;
+	background:#215972 ;
 	padding: 20px 0px 50px 0px;
   width:100%;
   margin-top:auto;
@@ -265,6 +262,9 @@ color: #599035;
 }
 .wid-100{
 	max-width: 100%;
+}
+.wid-95{
+max-width: 95%;
 }
 
 .fs-14{
@@ -347,6 +347,7 @@ S
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
 
 
 .anima{
