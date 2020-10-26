@@ -113,16 +113,58 @@
    
   }  
 
-   	.borda{
-   		border:solid 1px red;   		
-   	}
-    .caixa-solucoes{     
-      padding: 10px 30px;
-      border-radius: 0.75rem !important; 
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      position: relative;
-      background-color: blue;
+ 
+    .caixa-estrategia{
+      min-height: 200px;
+      width: 330px;
+      border: solid 2px orange;
+      border-radius: 20px;
+      padding: 20px;
+      margin-top:50px;
+      position:relative;
+      
     }
+    .caixa-estrategia p{
+      font-size: 1.5em;
+      font-weight: bold;
+      position: absolute;
+      bottom:5px;      
+      left: 0;
+      right: 0;
+      text-align: center;
+      line-height: 1.2em;
+      
+    }
+
+    .icon-estrategia{
+      width: 95px;
+      margin-top: -67px;
+    }
+
+    .caixa-estrategia-para{
+      border: solid 2px orange;
+      border-radius: 20px;
+      width:100%;
+      padding: 20px 20px;
+    }
+
+    .caixa-estrategia-para p{
+      font-size: 1.4em;
+      margin-bottom:0;
+    }
+
+    .icon-estrategia-para{
+      width: 110px;
+      height: 110px;
+      margin-left: -77px;
+    }
+
+     .icon-estrategia-para-2{
+      width: 110px;
+      height: 110px;
+      margin-top: -77px;
+    }
+
    	.caixa{
       height: 246px;
    		padding: 20px 30px;
@@ -139,13 +181,7 @@
       font-size:25px;
     }
 
-    .box-orange{
-      height: 250px;
-      width: 25%;
-      background-color: #FC7608; 
-      z-index: 2; 
-    }
-
+ 
     .orange-iten{
       color: #FC7608;
     }
@@ -158,6 +194,7 @@
       width: 35%;
       border-color:#FC7608 !important;  
       margin-bottom: : 5px;
+
     }
 
     .branco{
