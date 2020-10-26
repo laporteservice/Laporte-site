@@ -238,20 +238,24 @@ footer a{
 }
 
 .icones a:hover{
-  text-decoration-line: none;
-  color: green;
+  text-decoration-line: none;  
+  color: white;
 
 }
 footer ul{
   list-style: none;
 }
 
+footer a:hover{
+  color: white;
+  text-shadow: 2px 2px 15px white;
 }
+
 footer ul li a{
 color: #fff;
 }
 footer ul li a:hover{
-color: #599035;
+color: #fff;
 }
 
 .wid-80{
@@ -279,6 +283,31 @@ max-width: 95%;
 .bg-azul-escuro{
 	background-color:rgb(33,83,113);
 }
+
+.bg-ses1{
+ background-color: #C5B8A7;
+}
+
+.bg-ses2{
+ background-color: #333F50;
+}
+
+.bg-ses3{
+ background-color: #FC7608;
+}
+
+.bg-ses4{
+ background-color: #F3F3F3;
+}
+
+.bg-ses5{
+ background-color: #5A8EAE;
+}
+
+.bg-ses6{
+ background-color: #D9D9D9;
+}
+
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(217,217,217);
