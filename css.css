@@ -97,22 +97,54 @@
     min-height: 310px;
     }
 
-    .bg-header-estrategia-transformacao{
-    background-image: url(img/estrategia-transformacao.jpg);
+    .bg-header-automatizacao{
+    background-image: url(img/automatizacao.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
     min-height: 310px;
     }
-    .bg-header-transformacao-digital{
-    background-image: url(img/transformacao-digital.jpg);
+    .bg-header-alavancagem{
+    background-image: url(img/alavancagem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
     min-height: 310px;
     }
+    .bg-header-desenvolvimento{
+    background-image: url(img/desenvolvimento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+    .bg-header-outsourcing{
+    background-image: url(img/outsourcing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+    .bg-header-terceirizacao{
+    background-image: url(img/terceirizacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;    
+    margin-bottom: 0px;
+    min-height: 310px;
+    }
+    .bg-header-contato{
+      background-image: url(img/contato.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;    
+      margin-bottom: 0px;
+      min-height: 310px;
+      }
 
     #sobre-a-laporte{
     background-image: url(img/bg-sobre.jpg);
@@ -189,6 +221,9 @@
     }
     .icone-contato{
       font-size:25px;
+      background-color:rgb(82,101,128);
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
  
