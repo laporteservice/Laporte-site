@@ -94,7 +94,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 390px;
     }
 
     .bg-header-automatizacao{
@@ -103,7 +103,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 410px;
     }
     .bg-header-alavancagem{
     background-image: url(img/alavancagem.jpg);
@@ -111,7 +111,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 410px;
     }
     .bg-header-desenvolvimento{
     background-image: url(img/desenvolvimento.jpg);
@@ -119,7 +119,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 410px;
     }
     .bg-header-outsourcing{
     background-image: url(img/outsourcing.jpg);
@@ -127,7 +127,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 410px;
     }
     .bg-header-terceirizacao{
     background-image: url(img/terceirizacao.jpg);
@@ -135,7 +135,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 310px;
+    min-height: 410px;
     }
     .bg-header-contato{
       background-image: url(img/contato.jpg);
@@ -143,7 +143,7 @@
       background-size: cover;
       background-position: center top;    
       margin-bottom: 0px;
-      min-height: 310px;
+      min-height: 410px;
       }
 
     #sobre-a-laporte{
