@@ -1,18 +1,9 @@
 
-   	body{
-   
+  html, body{
+    overflow-x: hidden; 
+}
 
-      /*height:100%;
-      min-height: 100%;
-      position:relative; 				
-   		/*margin-top: 10px;*/
-   	}
-
-    html{
-      /*height:100%;
-      min-height: 100%;
-      position: relative;*/
-    }
+  
     .abg-transformacao{
     background-image: url(img/bg-estrategia.jpg);
     background-size: cover;
@@ -42,8 +33,25 @@
 		background-position: center top;		
 		margin-bottom: 0px;
 		min-height: 325px;  
-
     }
+
+    .bg-header-reto{
+      background-image: url(img/bg-nuvem.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;		
+      margin-bottom: 0px;
+      min-height: 325px;  
+      }
+
+    .bg-header-solucoes{
+      background-image: url(img/solucoes.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;		
+      margin-bottom: 0px;
+      min-height: 410px;  
+      }
 
     .bg-homepage{
     background-image: url(img/home-page.jpg);
@@ -426,9 +434,11 @@ max-width: 95%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    border-bottom: 3px solid rgb(217,217,217);
+    
     line-height: 25px;
-    padding-bottom: 3px;    
+    padding-bottom: 3px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000000;   
 }
 
 .navbar-light .navbar-toggler {       
@@ -440,16 +450,17 @@ max-width: 95%;
 
 
 .navbar-primary .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    border-bottom: 3px solid #215972;
+    border-bottom: 3px solid #ffffff;
     line-height: 25px;
     padding-bottom: 3px;
 }
 
 .navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color:#007bff;
+    color: #fff;
     text-shadow: 1px ;
     line-height: 25px;
-    padding-bottom: 3px;    
+    padding-bottom: 3px;  
+      
 }
 
 .navbar-primary .navbar-toggler {       
@@ -458,6 +469,9 @@ max-width: 95%;
     border: 1px solid ;
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
 /*.dropdown-item:hover, .dropdown-item:focus {
   color: #599035;
@@ -507,6 +521,28 @@ max-width: 95%;
         opacity:1
       }
   }
+
+  .teste {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .teste img {
+    transition: transform .5s ease-in-out;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .teste:hover img {
+    transform: scale(1.2);
+  }
+
+
+
+
+
+
+
 /*
   #215972 azul logo
   #599035 verde
