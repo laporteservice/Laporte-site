@@ -171,9 +171,19 @@
       border-radius: 20px;
       padding: 20px;
       margin-top:50px;
-      position:relative;
-      
+      position:relative;      
     }
+
+    .caixa-estrategia2{     
+      width: 330px;      
+      background-color: rgb(169,221,237);
+      border-radius: 20px;
+      padding: 20px 10px 10px 10px;
+      margin-top:50px;
+      position:relative;      
+    }
+
+
     .caixa-estrategia p{
       font-size: 1.5em;
       font-weight: bold;
@@ -186,9 +196,22 @@
       
     }
 
+
+    .caixa-estrategia2 p{
+      
+      font-weight: bold;    
+      text-align: center;
+      line-height: 1.1em;
+      
+    }
+
     .icon-estrategia{
       width: 95px;
       margin-top: -67px;
+    }
+    .icon-estrategia2{
+      width: 95px;
+      
     }
 
     .caixa-estrategia-para{
@@ -394,34 +417,59 @@ max-width: 95%;
 .bg-azul-claro{
 	background-color:rgb(175,206,235);
 }
+
 .bg-azul-escuro{
 	background-color:rgb(33,83,113);
 }
 
 .bg-ses1{
- background-color: #C5B8A7;
+ background-color:rgb(222,235,247);
+ min-height:250px; 
+ max-width: 285px;
 }
 
 .bg-ses2{
- background-color: #333F50;
+ background-color: rgb(51,63,80);
+ min-height:250px; 
+ max-width: 285px;
 }
 
 .bg-ses3{
- background-color: #FC7608;
+ background-color: rgb(120,171,194) ;
+ min-height:250px; 
+ max-width: 285px;
 }
 
 .bg-ses4{
- background-color: #F3F3F3;
+ background-color: rgb(169,221,237);
+ min-height:250px; 
+ max-width: 285px;
 }
 
 .bg-ses5{
- background-color: #5A8EAE;
+ background-color: rgb(90,142,174);
+ min-height:250px; 
+ max-width: 285px;
 }
 
 .bg-ses6{
- background-color: #D9D9D9;
+ background-color: rgb(170,214,236);
+ min-height:250px; 
+ max-width: 285px;
 }
 
+.cont-ss{  
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto; 
+}
+@media (min-width: 1200px) {
+  .cont-ss {
+    max-width: 1360px;
+  }
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: rgb(217,217,217);
@@ -551,9 +599,37 @@ max-width: 95%;
     color: #fff;
     background-color: #0069d9;
     border-color: #0062cc;
+  }
 
+  .lh-12{
+    line-height: 1.2em;
+  }
+   
 
+@keyframes din{
+  from{    
+    opacity:0;
+    }
+    to{      
+      opacity:1;
+    }
+}
+@keyframes dout{
+  from{
+    opacity:1;
+  }
+  to{
+    opacity:0;
+  }
+}
 
+.i1:hover .caixa-estrategia2{  
+opacity:1 ; 
+}
+
+.i1 .caixa-estrategia2{
+  transition: opacity 1s ease-in-out;
+}
 
 /*
   #215972 azul logo
