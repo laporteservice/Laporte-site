@@ -102,7 +102,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 390px;
+    min-height: 380px;
     }
 
     .bg-header-automatizacao{
@@ -111,7 +111,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 410px;
+    min-height: 380px;
     }
     .bg-header-alavancagem{
     background-image: url(img/alavancagem.jpg);
@@ -143,7 +143,7 @@
     background-size: cover;
     background-position: center top;    
     margin-bottom: 0px;
-    min-height: 410px;
+    min-height: 380px;
     }
     .bg-header-contato{
       background-image: url(img/contato.jpg);
@@ -151,7 +151,7 @@
       background-size: cover;
       background-position: center top;    
       margin-bottom: 0px;
-      min-height: 410px;
+      min-height: 380px;
       }
 
     #sobre-a-laporte{
@@ -175,12 +175,12 @@
     }
 
     .caixa-estrategia2{     
-      width: 330px;      
+      width: 330px;
       background-color: rgb(169,221,237);
       border-radius: 20px;
-      padding: 20px 10px 10px 10px;
+      padding: 10px 10px 0px 10px;
       margin-top:50px;
-      position:relative;      
+      position:relative;
     }
 
 
@@ -210,8 +210,11 @@
       margin-top: -67px;
     }
     .icon-estrategia2{
-      width: 95px;
-      
+      width: 95px;  
+      position: relative;    
+    }
+    .icon-estrategia2:hover{
+      top:5px;
     }
 
     .caixa-estrategia-para{
@@ -223,6 +226,17 @@
 
     .caixa-estrategia-para p{
       font-size: 1.4em;
+      margin-bottom:0;
+    }
+    .caixa-estrategia-para2{
+      background-color: rgb(169,221,237);
+      border-radius: 20px;
+      width:100%;
+      padding: 15px 15px;
+    }
+
+    .caixa-estrategia-para2 p{
+      font-size: 1.2em;
       margin-bottom:0;
     }
 
@@ -545,7 +559,23 @@ max-width: 95%;
   to {opacity: 1;}
 }
 
+@keyframes mover{
+  from{
+    left: -250px;
+  }
+    to{
+      left:250px;
 
+    }
+
+}
+
+.mouse{
+  position: relative;
+  animation-name: mover;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
 
 .anima{
   animation-name: opacidade;
@@ -553,6 +583,42 @@ max-width: 95%;
   animation-timing-function: ease-in;
 }
 
+.anima1{
+  animation-name: opacidade;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
+
+.anima2{
+  animation-name: opacidade;
+  animation-delay: 0.2s;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
+.anima3{
+  animation-name: opacidade;
+  animation-delay: 0.4s;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
+.anima4{
+  animation-name: opacidade;
+  animation-delay: 0.6s;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
+.anima5{
+  animation-name: opacidade;
+  animation-delay: 0.8s;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
+.anima6{
+  animation-name: opacidade;
+  animation-delay: 1s;
+  animation-duration: 2s;  
+  animation-timing-function: ease-in;
+}
 
 
 .w3-animate-left{
