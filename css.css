@@ -218,14 +218,14 @@
     }
 
     .caixa-estrategia-para{
-      border: solid 2px orange;
+      border: solid 3px #95C2DF;
       border-radius: 20px;
       width:100%;
       padding: 20px 20px;
     }
 
     .caixa-estrategia-para p{
-      font-size: 1.4em;
+      font-size: 1.2em;
       margin-bottom:0;
     }
     .caixa-estrategia-para2{
@@ -428,6 +428,14 @@ max-width: 95%;
 .fs-13{
   font-size: 1.3em;
 }
+.fs-11{
+  font-size: 1.1em;
+}
+.fs-12{
+  font-size: 1.2em;
+}
+
+
 .bg-azul-claro{
 	background-color:rgb(175,206,235);
 }
@@ -443,7 +451,7 @@ max-width: 95%;
 }
 
 .bg-ses2{
- background-color: rgb(51,63,80);
+ background-color: rgb(39, 93, 168);
  min-height:250px; 
  max-width: 285px;
 }
@@ -471,6 +479,42 @@ max-width: 95%;
  min-height:250px; 
  max-width: 285px;
 }
+
+.bg-dti1{
+  background-color:rgb(222,235,247);
+  min-height:250px; 
+ 
+ }
+ 
+ .bg-dti2{
+  background-color: rgb(39, 93, 168);
+  min-height:250px; 
+ 
+ }
+ 
+ .bg-dti3{
+  background-color: rgb(120,171,194) ;
+  min-height:250px; 
+  
+ }
+ 
+ .bg-dti4{
+  background-color: rgb(169,221,237);
+  min-height:250px; 
+  
+ }
+ 
+ .bg-dti5{
+  background-color: rgb(90,142,174);
+  min-height:250px; 
+ 
+ }
+ 
+ .bg-dti6{
+  background-color: rgb(170,214,236);
+  min-height:250px; 
+  
+ }
 
 .cont-ss{  
   width: 100%;
@@ -696,6 +740,65 @@ opacity:1 ;
 .i1 .caixa-estrategia2{
   transition: opacity 1s ease-in-out;
 }
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu-d{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu-d{ display: block; }
+	.navbar .nav-item .dropdown-menu-d{ margin-top:0; }
+}	
+
+.dropdown-menu-d {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.2rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  
+  border-radius: 0.25rem;
+}
+
+.dropdown-item-d {
+  display: block;
+  width: 100%;
+  padding: 0.1rem 1.5rem;
+  clear: both;
+  font-weight: 450;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+
+.dropdown-item-d:hover, .dropdown-item-d:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(33,83,113);
+}
+
+.dropdown-item-d.active, .dropdown-item-d:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(33,83,113);
+}
+
+.dropdown-item-d.disabled, .dropdown-item-d:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
 
 /*
   #215972 azul logo
