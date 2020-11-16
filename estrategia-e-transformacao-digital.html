@@ -67,7 +67,7 @@
       </nav>
        
     </header>
-    <section class="bg-header-estrategia">
+    <section id="bg-top" class="bg-header-estrategia position-relative" nome="eetd">
       <div class="container wid-80">
         <div class="row">
           <div class="col-md-6 d-flex" style="height: 310px;">                      
@@ -76,7 +76,21 @@
 
           </div>          
         </div>      
-      </div>      
+      </div>
+      <div class="position-absolute d-flex" style="bottom: 15px; left: 15px; background-color: white;">
+        <div class="border d-flex" style="width:20px; height:20px;" onclick=mudaBg1()>
+          <spam>1</spam>
+        </div>
+        <div class="border d-flex" style="width:20px; height:20px;" onclick=mudaBg2()>
+          <spam>2</spam>
+        </div>
+        <div class="border d-flex" style="width:20px; height:20px;" onclick=mudaBg3()>
+          <spam>3</spam>
+        </div>
+        <div class="border d-flex" style="width:20px; height:20px;" onclick=mudaBg4()>
+          <spam>4</spam>
+        </div>
+      </div>     
     </section>
 
     <section class="bg-light">
@@ -343,5 +357,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="css/js.js"></script>    
   </body>
 </html>
