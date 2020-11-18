@@ -23,3 +23,8 @@ function    mudaBg4(){
     bg.style.backgroundImage = "url(img/" + pasta +"/4.jpg)";
 
 }
+function bgHeader(){
+    var bg= document.getElementById("bg-top");
+    var pasta = bg.getAttribute("nome");    
+    bg.style.backgroundImage = "url(img/headers/" + pasta +".jpg)";
+}

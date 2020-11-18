@@ -48,16 +48,16 @@
       background-image: url(img/solucoes.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center top;		
+      background-position: center center;		
       margin-bottom: 0px;
-      min-height: 325px;  
+      min-height: 410px;  
       }
 
     .bg-homepage{
     background-image: url(img/home-page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;    
+    background-position: center center;    
     margin-bottom: 0px;
     min-height: 1358px;
     z-index: -1;
@@ -74,94 +74,17 @@
       }
 
 
-    .bg-solucoes{
-    background-image: url(img/topo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;    
-    margin-bottom: 0px;
-    min-height: 700px;
-    z-index: -1;
-    }
-
-    .bg-solucoes-menu{
-    background-image: url(img/maos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;    
-    margin-bottom: 0px;
-    min-height: 700px;
-    z-index: -1;
-    }
-
-
-
-    .bg-header-estrategia{
-    background-image: url(img/estrategia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 380px;
-    }
-
-    .bg-header-automatizacao{
-    background-image: url(img/automatizacao.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 380px;
-    }
-    .bg-header-alavancagem{
-    background-image: url(img/alavancagem.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 410px;
-    }
-    .bg-header-desenvolvimento{
-    background-image: url(img/desenvolvimento.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 410px;
-    }
-    .bg-header-outsourcing{
-    background-image: url(img/outsourcing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 410px;
-    }
-    .bg-header-terceirizacao{
-    background-image: url(img/terceirizacao.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-    min-height: 380px;
-    }
-    .bg-header-contato{
-      background-image: url(img/contato.jpg);
+    .bg-headers{
+      
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center top;    
+      background-position: center center;		
       margin-bottom: 0px;
-      min-height: 380px;
-      }
+      min-height: 380px;  
 
-    #sobre-a-laporte{
-    background-image: url(img/bg-sobre.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;    
-    margin-bottom: 0px;
-   
-  }  
+    }
+
+  
 
  
     .caixa-estrategia{
