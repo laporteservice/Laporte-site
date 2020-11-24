@@ -84,7 +84,12 @@
 
     }
 
-  
+    .bg-pro{
+      margin-right: -10px;     
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      }
 
  
     .caixa-estrategia{
@@ -153,7 +158,6 @@
     }
     .caixa-estrategia-para2{
       background-color: rgb(169,221,237);
-      border-radius: 20px;
       width:100%;
       padding: 15px 15px;
     }
@@ -166,7 +170,7 @@
     .icon-estrategia-para{
       width: 110px;
       height: 110px;
-      margin-left: -77px;
+      margin-left: -70px;
     }
 
      .icon-estrategia-para-2{
@@ -233,7 +237,42 @@
 	.capa{
 		color: #215972;
 		font-size: 1.1em;
-	}
+  }
+  
+.bgp1{
+  background-color: #A9DDED;
+}
+.bgp2{
+  background-color: #EAF5FA;
+}
+.bgp3{
+  background-color:#6DC3E1;
+}
+.bgp4{
+  background-color:#ECECEC;
+}
+.bgp5{
+  background-color:#DAD8D8;
+}
+.bgp6{
+  background-color:#38566A;
+}
+.bgp7{
+  background-color:#F9F9F9;
+}
+.bgp8{
+  background-color:#78ABC2;
+}
+.bgp9{
+  background-color:#58A1DE;
+}
+.bgp10{
+  background-color:#DEEBF7;
+}
+.bgp11{
+  background-color:#47CFFF;
+}
+
 
 .btn-danger {
   color: #fff;
@@ -331,6 +370,9 @@ footer span{
 }
 .wid-80{
   max-width: 80%;
+}
+.wid-85{
+  max-width: 85%;
 }
 .wid-90{
   max-width: 90%;
