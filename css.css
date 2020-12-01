@@ -85,6 +85,16 @@
 
     }
 
+    .bg-header-pro{
+      
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 85% center ;		
+      margin-bottom: 0px;
+      min-height: 380px;  
+
+    }
+
     .bg-pro{
       margin-right: -10px;     
       background-repeat: no-repeat;
@@ -244,6 +254,8 @@
 		font-size: 1.1em;
   }
   
+
+
 .bgp1{
   background-color: #A9DDED;
 }
@@ -582,6 +594,23 @@ max-width: 95%;
 
     }
 
+}
+
+@keyframes down{
+  from{
+    top: -25px;
+  }
+  to{
+    top:0px;
+  }
+}
+
+.down-down{
+  position:relative;
+  animation-name:down;
+  animation-duration: 1s;
+  animation-iteration-count:5;
+  animation-timing-function: ease-in-out;
 }
 
 .mouse{
