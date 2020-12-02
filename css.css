@@ -85,14 +85,20 @@
 
     }
 
-    .bg-header-pro{
-      
+    .bg-header-pro{      
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 85% center ;		
       margin-bottom: 0px;
-      min-height: 380px;  
+      min-height: 380px;
+    }
 
+    .bg-header-val{      
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 70% bottom ;		
+      margin-bottom: 0px;
+      min-height: 380px;
     }
 
     .bg-pro{
