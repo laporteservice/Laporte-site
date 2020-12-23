@@ -1,30 +1,25 @@
-function    mudaBg1(){
-    var bg= document.getElementById("bg-top");
-    var pasta = bg.getAttribute("nome");    
-    bg.style.backgroundImage = "url(img/" + pasta +"/1.jpg)";
 
+
+document.getElementById("item-1").addEventListener("mouseover", mouseOver1);
+document.getElementById("bg-1").addEventListener("mouseover", mouseOver1);
+document.getElementById("item-1").addEventListener("mouseout", mouseOut1);
+document.getElementById("bg-1").addEventListener("mouseout", mouseOut1);      
+
+function mouseOver1() {
+  document.getElementById("bg-1").style.backgroundColor = "#5b9bd5 ";
+}    
+function mouseOut1() {
+  document.getElementById("bg-1").style.backgroundColor = "transparent";          
 }
 
-function    mudaBg2(){
-    var bg= document.getElementById("bg-top");
-    var pasta = bg.getAttribute("nome");    
-    bg.style.backgroundImage = "url(img/" + pasta +"/2.jpg)";
+document.getElementById("item-2").addEventListener("mouseover", mouseOver2);
+document.getElementById("bg-2").addEventListener("mouseover", mouseOver2);
+document.getElementById("item-2").addEventListener("mouseout", mouseOut2);
+document.getElementById("bg-2").addEventListener("mouseout", mouseOut2);      
 
-}
-function    mudaBg3(){
-    var bg= document.getElementById("bg-top");
-    var pasta = bg.getAttribute("nome");    
-    bg.style.backgroundImage = "url(img/" + pasta +"/3.jpg)";
-
-}
-function    mudaBg4(){
-    var bg= document.getElementById("bg-top");
-    var pasta = bg.getAttribute("nome");    
-    bg.style.backgroundImage = "url(img/" + pasta +"/4.jpg)";
-
-}
-function bgHeader(){
-    var bg= document.getElementById("bg-top");
-    var pasta = bg.getAttribute("nome");    
-    bg.style.backgroundImage = "url(img/headers/" + pasta +".jpg)";
+function mouseOver2() {
+  document.getElementById("bg-2").style.backgroundColor = "#5b9bd5 ";
+}    
+function mouseOut2() {
+  document.getElementById("bg-2").style.backgroundColor = "transparent";          
 }

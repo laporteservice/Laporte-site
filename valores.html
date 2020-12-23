@@ -16,7 +16,9 @@
      
       <title>Nossos Valores</title>
     </head>
-    <body>
+    <body oncontextmenu="return false" ondragstart="return false"
+
+onselectstart="return false">
     <!--
     #215972 azul logo
     #235f95 tipo
@@ -27,8 +29,10 @@
         
         <nav style="background-color: #1f4e79 ;" class="pt-1 pb-2 navbar navbar-expand-lg navbar-light">
           
-          <div class="container pt-1 wid-80" >
-            <a href="index.html"><img class="" src="img/logo-laporte-topo.png" style="height:38.5px;"/></a>
+           <div class="container pt-1 wid-80 ">
+            <div class="d-sm-block d-none"><a href="index.html"><img  src="img/logo-laporte-topo.png"  style="height:38.5px; margin-left: -10px;" /></a></div>
+
+            <div class="d-sm-none d-block"><a href="index.html"><img  src="img/logo-laporte-topo3.png" style=" width:150.3px; left:0"/></a>;</div>
             
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>           
@@ -38,21 +42,22 @@
                 <ul class="navbar-nav ml-auto" style="font-size: 1.1em;">
                  
                   <li class="nav-item  dropdown pr-2">
-                    <a class="nav-link" href="index.html"><b>A Laporte</b></a>
-                    <div class="dropdown-menu-d">
+                    
+                   <a class="nav-link" id="bg-1" href="index.html"><b>A Laporte</b></a>
+                    <div class="dropdown-menu-d" id="item-1">
                       <a class="dropdown-item-d" href="index.html">Home</a>
                       <a class="dropdown-item-d" href="valores.html">Nossos Valores</a>                     
                     </div>  
                   </li>
                   <li class="nav-item  dropdown pr-2" >
-                    <a class="nav-link"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
-                    <div class="dropdown-menu-d ">
+                  <a class="nav-link" id="bg-2"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
+                    <div class="dropdown-menu-d" id="item-2">
                       <a class="dropdown-item-d" href="estrategia-e-transformacao-digital.html">Estratégia e Transformação Digital</a>
                       <a class="dropdown-item-d" href="automatizacao-avancada.html">Automatização Avançada de Atividades Humanas</a>
                       <a class="dropdown-item-d" href="alavancagem-tecnologica.html">Alavancagem Tecnológica para Inovação</a>
                       <a class="dropdown-item-d" href="desenvolvimento-organizacional.html">Desenvolvimento Organizacional</a>
                       <a class="dropdown-item-d" href="outsourcing-da-ti.html">Outsourcing da Tecnologia da Informação</a>
-                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Humanos</a>
+                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Profissionais</a>
                     </div>               
                   </li>
                   <li class="nav-item pr-2">
@@ -90,7 +95,7 @@
             <p class="fs-11 pt-2">Trabalhamos todos os dias cientes da importância do nosso papel para nossos clientes. Atravessamos novos tempos e, particularmente, um momento de grandes desafios, que torna fundamental um modelo de atuação pautado na eficiência, qualidade, responsabilidade e ética.
               </p>
               <p class="fs-11">
-                Nossos valores refletem e definem nossa cultura empresarial, norteando todas as atividades da nossa organização ao estabelecer como realizamos nosso negócio e interagimos com nossos clientes, colaboradores e parceiros. São parâmetros que guiam nossas ações, no presente e no futuro, nos unindo como uma empresa diferenciada de consultoria e tecnologia.
+                Nossos valores refletem e definem nossa cultura empresarial, norteando todas as atividades da nossa organização ao estabelecer como realizamos nosso negócio e interagimos com nossos clientes, colaboradores e parceiros. São parâmetros que guiam nossas ações, no presente e no futuro, nos unindo em torno de uma empresa única no mercado.
 
               </p>
             </div>
@@ -102,7 +107,7 @@
             </div>
             <div class="col-md-8">
               <div style="border-bottom:1px solid black; width: 250px;"></div>
-            <p class="pt-3 fs-11">Nosso objetivo é obter a admiração de nossos clientes através dos resultados de nossos projetos e serviços. Para atingir estes resultados, atuamos com dedicação e empatia, estabelecendo um modelo de parceria e comprometimento.
+            <p class="pt-3 fs-11">Nosso objetivo é obter a admiração de nossos clientes através dos resultados de nossos projetos e serviços. Para atingir estes resultados, atuamos com dedicação e empatia, estabelecendo um modelo distinto de parceria e comprometimento.
               </p>
             </div>
           </div>
@@ -114,7 +119,7 @@
             </div>
             <div class="col-md-8">
               <div style="border-bottom:1px solid black; width: 250px;"></div>
-            <p class="pt-3 fs-11">Adotamos elevados princípios de conduta profissional e pessoal, atuando com integridade, respeito, responsabilidade, confidencialidade e transparência em cada atividade , seja de âmbito interno ou externo, incluindo o respeito a direitos humanos, obediência a direitos trabalhistas e preocupações ambientais, apenas como exemplo.
+            <p class="pt-3 fs-11">Adotamos elevados princípios de conduta profissional e pessoal, atuando com integridade, respeito, responsabilidade, confidencialidade e transparência em cada atividade, seja de âmbito interno ou externo, incluindo o respeito a direitos humanos, obediência a direitos trabalhistas e preocupações no contexto ambiental, apenas como exemplos.
             </p>
             </div>
           </div>
@@ -126,7 +131,7 @@
             </div>
             <div class="col-md-8">
               <div style="border-bottom:1px solid black; width: 250px;"></div>
-            <p class="pt-3 fs-11"> Acreditamos que a construção de um ambiente de colaboração e harmonia é fundamental para a satisfação de todos. Incentivamos o trabalho em equipe, o respeito no tratamento de cada indivíduo, a educação nas interações cotidianas e o compartilhamento da informação e do conhecimento entre as partes envolvidas.
+            <p class="pt-3 fs-11"> Acreditamos que a construção de um ambiente de colaboração e harmonia é fundamental para a satisfação de todos. Incentivamos o trabalho em equipe, o respeito nas relações com cada indivíduo, a educação nas interações cotidianas e o compartilhamento da informação e do conhecimento entre as partes envolvidas.
             </p>
             </div>
           </div>
@@ -139,7 +144,7 @@
             </div>
             <div class="col-md-8">
               <div style="border-bottom:1px solid black; width: 250px;"></div>
-            <p class="pt-3 fs-11">O sucesso de nossos projetos e serviços reside não apenas no talento de nossos profissionais, mas também na utilização de métodos e processos organizados de trabalho, assim como na aplicação de procedimentos para controle e verificação de cada produto entregue aos nossos clientes.
+            <p class="pt-3 fs-11">O sucesso de nossos projetos e serviços reside não apenas no talento de nossos profissionais, mas também na utilização de métodos e processos organizados de trabalho, assim como na aplicação de procedimentos para controle e verificação de cada etapa do serviço prestado e cada produto entregue aos nossos clientes.
             </p>
             </p>
             </div>
@@ -167,21 +172,29 @@
             
           </div>
           <div class="row " style="padding-top:50px;">
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
               
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 text-center">
               
-              <div class="pt-2"  style=" border-bottom:3px solid black; width: 20%; margin: auto;"></div>
+              <hr style="
+              width: 40%;
+              border: 0;
+              height: 3px;
+              background-image: linear-gradient(to right, transparent, #000, transparent);">
               
               <p class="fs-11 pt-3">Nossos valores são a representação de tudo o que acreditamos e da forma como atingimos nossos objetivos. Nosso propósito é manter e demonstrar nosso compromisso com princípios fundamentais sobre o que fazemos e como fazemos.
 
               </p>
-              <p class="fs-11">Acreditamos que estas são convicções que nos tornam únicos.                
+              <p class="fs-11 pb-3">Acreditamos que estas são convicções que nos tornam únicos.                
               </p>
-              <div class="mb-5"  style=" border-bottom:3px solid black; width: 20%; margin: auto;"></div>
+              <hr  class="mb-5"style="
+              width: 40%;
+              border: 0;
+              height: 3px;
+              background-image: linear-gradient(to right, transparent, #000, transparent);">
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 text-center">
             </div>
             
           </div>
@@ -194,7 +207,7 @@
       
       <footer >
       	<div class="container wid-80">
-          <div class="row ">
+          <div class="row  pt-4">
             <div class="col-md-4 mb-4 pl-1">
                 <h6 class="font-weight-bold">Laporte Tecnologia e Serviços © 2020</h6>
                 <span>Av. Rio Branco, 108 - 16º andar<br></span>
@@ -211,7 +224,7 @@
             </div>
             </div>
 
-            <div class="col-md-5 pb-4 pl-1 links-footer">
+            <div class="col-md-5 pb-4 pl-1 links-footer textooo">
                 <span class="font-weight-bold" style="color: rgb(175,171,171);">SOBRE A LAPORTE<br></span>
                 <span><a href="valores.html">NOSSOS VALORES</a> <br></span>
                 <span><a href="contato.html">CONTATO</a> <br><br></span>
@@ -221,7 +234,7 @@
                 <span><a href="alavancagem-tecnologica.html">ALAVANCAGEM TECNOLÓGICA PARA INOVAÇÃO</a> <br></span>
                 <span><a href="desenvolvimento-organizacional.html">DESENVOLVIMENTO ORGANIZACIONAL</a> <br></span>
                 <span><a href="outsourcing-da-ti.html">OUTSOURCING DA TECNOLOGIA DA INFORMAÇÃO</a> <br></span>
-                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS HUMANOS</a> <br></span>
+                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS PROFISSIONAIS</a> <br></span>
 
 
                           
@@ -243,5 +256,6 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
       
-      </body>
+      <script  src="css/js.js">  </script>      
+    </body>
   </html>

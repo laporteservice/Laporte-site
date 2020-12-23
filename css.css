@@ -521,18 +521,13 @@ max-width: 95%;
   color: rgb(217,217,217);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    border-bottom: 3px solid #215972;
-    line-height: 25px;
-    padding-bottom: 3px;
-}
 
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {    
     
-    line-height: 25px;
-    padding-bottom: 3px;
-    color: #fff;
-    text-shadow: 2px 2px 2px #000000;   
+    padding-bottom: 8px;
+    color: #fff;   
+    background-color: #5b9bd5;  
 }
 
 .navbar-light .navbar-toggler {       
@@ -543,25 +538,8 @@ max-width: 95%;
 
 
 
-.navbar-primary .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    border-bottom: 3px solid #ffffff;
-    line-height: 25px;
-    padding-bottom: 3px;
-}
 
-.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #fff;
-    text-shadow: 1px ;
-    line-height: 25px;
-    padding-bottom: 3px;  
-      
-}
 
-.navbar-primary .navbar-toggler {       
-    color: rgba(217,217,217,1);
-    border-color: rgba(217,217,217,1);
-    border: 1px solid ;
-}
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -771,13 +749,12 @@ opacity:1 ;
   background-color: #fff;
   background-clip: padding-box;
   
-  border-radius: 0.25rem;
 }
 
 .dropdown-item-d {
   display: block;
   width: 100%;
-  padding: 0.1rem 1.5rem;
+  padding: 0.1rem 0.5rem;
   clear: both;
   font-weight: 450;
   color: #212529;
@@ -787,16 +764,19 @@ opacity:1 ;
 }
 
 
-.dropdown-item-d:hover, .dropdown-item-d:focus {
-  color: #fff;
+.dropdown-item-d:hover, .dropdown-item-d:focus{
+  color: black;
+  font-weight: bold;
   text-decoration: none;
-  background-color: rgb(33,83,113);
+  background-color:#cfdef1;
 }
 
+ 
+
 .dropdown-item-d.active, .dropdown-item-d:active {
-  color: #fff;
+  color:black;
   text-decoration: none;
-  background-color: rgb(33,83,113);
+  background-color: #cfdef1;
 }
 
 .dropdown-item-d.disabled, .dropdown-item-d:disabled {
@@ -804,9 +784,78 @@ opacity:1 ;
   background-color: transparent;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 8%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 
 /*
   #215972 azul logo
   #599035 verde
   #f8f9fa bg light
 */
+nav{
+  font-family: -apple-system, BlinkMacSystemFont, "Calibri", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@font-face {
+  font-family: rodape;
+  src: url(img/bahnschrift.ttf);
+}
+
+.textooo {
+  font-family: rodape;
+}
+
+.texto-vetores{
+  color:#595959;
+  font-family: rodape;
+  font-weight: bold;
+  
+}

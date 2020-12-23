@@ -17,7 +17,7 @@
      
       <title>Laporte Tecnologia e Serviços</title>
     </head>
-    <body>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
     <!--
     #215972 azul logo
     #235f95 tipo
@@ -26,9 +26,10 @@
     -->	
   	<header class="bg-header">
 
-        <nav class="pt-2 pb-4 navbar navbar-expand-lg navbar-light">          
-          <div class="container pt-1 wid-80">
-            <a href="index.html"><img class="" src="img/logo-laporte-topo.png" style="height:38.5px;"/></a>
+        <nav class=" pb-4 navbar navbar-expand-lg navbar-light">          
+          <div class="container  wid-95 ">
+            <div class="d-sm-block d-none"><a href="index.html"><img  src="img/logo-laporte-topo.png"  style="height:38.5px;" /></a></div>
+            <div class="d-sm-none d-block"><a href="index.html"><img  src="img/logo-laporte-topo3.png" style=" width:150.3px; left:0"/></a>;</div>
             
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>           
@@ -38,21 +39,21 @@
                 <ul class="navbar-nav ml-auto" style="font-size: 1.1em;">
                  
                   <li class="nav-item  dropdown pr-2">
-                    <a class="nav-link" href="index.html"><b>A Laporte</b></a>
-                    <div class="dropdown-menu-d">
+                    <a class="nav-link" id="bg-1" href="index.html"><b>A Laporte</b></a>
+                    <div class="dropdown-menu-d" id="item-1">
                       <a class="dropdown-item-d" href="index.html">Home</a>
                       <a class="dropdown-item-d" href="valores.html">Nossos Valores</a>                     
                     </div>  
                   </li>
                   <li class="nav-item  dropdown pr-2" >
-                    <a class="nav-link"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
-                    <div class="dropdown-menu-d ">
+                  <a class="nav-link" id="bg-2"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
+                    <div class="dropdown-menu-d" id="item-2">
                       <a class="dropdown-item-d" href="estrategia-e-transformacao-digital.html">Estratégia e Transformação Digital</a>
                       <a class="dropdown-item-d" href="automatizacao-avancada.html">Automatização Avançada de Atividades Humanas</a>
                       <a class="dropdown-item-d" href="alavancagem-tecnologica.html">Alavancagem Tecnológica para Inovação</a>
                       <a class="dropdown-item-d" href="desenvolvimento-organizacional.html">Desenvolvimento Organizacional</a>
                       <a class="dropdown-item-d" href="outsourcing-da-ti.html">Outsourcing da Tecnologia da Informação</a>
-                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Humanos</a>
+                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Profissionais</a>
                     </div>               
                   </li>
                   <li class="nav-item pr-2">
@@ -67,40 +68,48 @@
         </nav>
 
          <div class="container d-flex justify-content-center  pt-1 pb-2" style="margin-top:-20px;">
-            <img class="mx-auto" src="img/futurotexto.png" style="width: 500px;">
-          </div>
+          <img class="mx-auto d-sm-block d-none" src="img/futurotexto.png" style="width: 500px;">
+          <img class="mx-auto d-sm-none d-block" src="img/futurotexto.png" style="width: 400px; margin-top: 10px;">
+        </div>
       </header>	
 
       <section  style=" background-color: rgb(255,255,255); ">
       	
         <div class="container wid-95" > 
           <div class="row pt-3">
-          	<div class="col-lg-2 text-center">
+          	<div class="col-lg-2 d-md-block d-none text-left">
+          		<img class="pb-3" src="img/logo-laporte.png" style="width: 170px; margin-left:15px;">
+            </div>
+            <div class="col-lg-2 d-md-none d-block text-center">
           		<img class="pb-3" src="img/logo-laporte.png" style="width: 170px;">
           	</div>
            
             <div class="col-lg-8">
               <h4 class=" text-center font-weight-bold font-italic">Criatividade, tecnologia e competências em Consultoria e Serviços.<br> Soluções Inovadoras para Clientes à frente de seu tempo.</h4>
-              <p class="pb-2 pt-2 fs-12 text-center">A<span class="font-weight-bold">&nbsp;Laporte&nbsp;</span> entende os desafios das transformações digitais! Conte conosco para enfrentar as incertezas de novos tempos e transformar novas realidades em oportunidades e novos caminhos para seu negócio.
+              <p class="pb-2 pt-2 fs-11 text-center">A<span class="font-weight-bold">&nbsp;Laporte&nbsp;</span> entende os desafios das transformações digitais! Conte conosco para enfrentar as incertezas de novos tempos e transformar novas realidades em oportunidades e novos caminhos para seu negócio.
 
               </p>
             </div>
             <div class="col-lg-2"> </div>           
           </div> <!--FIMROW1-->
 
-          <div class="row pt-2 pb-3">
+          <div class="row pt-2 pb-3 ">
           	<div class="col-lg-2"></div> 
           	<div class="col-lg-8">
           		<div class="row">
 		          	<div class="col-lg-4">
 		              <div class="row">
-			              <div class="col-lg-3">
-			              	<div class="rounded-circle d-flex mr-3" style="width: 65px; height: 65px; background-color:rgb(175,206,235);">            		
-				              	<span class="m-auto azul-titulos " ><i  style='font-size:30px;' class="fas fa-user-tie "></i></span>
+			              <div class="col-lg-2">
+			              	<div class="rounded-circle d-sm-flex mr-3 d-none" style="width: 65px; height: 65px;  margin-left:-15px; background-color:rgb(175,206,235);">            		
+                        <img  class="m-auto"style="width: 40px;" src="img/i1.png">
+                      </div>
+                      <div class="rounded-circle d-sm-none mr-3 d-flex m-auto" style="width: 65px; height: 65px;  margin-left:-15px; background-color:rgb(175,206,235);">            		
+                        <img  class="m-auto"style="width: 40px;" src="img/i1.png">
 			              	</div>
 			              </div>
-			              <div class=" pl-4 col-lg-9">            
-			                <h3 class="d-flex azul-titulos font-weight-bold" >Consultoria</h3>
+			              <div class=" col-lg-10 " style="padding-left: 25px;">            
+			                <h3 class="d-sm-flex d-none font-weight-bold" >Consultoria</h3>
+			                <h3 class="d-sm-none d-flex font-weight-bold justify-content-center" >Consultoria</h3>
 			                <p class="d-flex  pb-2 fs-11" >
 			                  Integração de metodologias e técnicas de consultoria organizacional e de gestão com recursos tecnológicos de ponta.
 			                </p>
@@ -109,27 +118,36 @@
 		            </div>
 		            <div class="col-lg-4 ">
 		              <div class="row">
-		              <div class="col-lg-3">
-		              		<div class="rounded-circle d-flex mr-3 " style="width: 65px; height: 65px; background-color:rgb(175,206,235);">            		
-				              	<span class="m-auto azul-titulos " ><i style='font-size:30px;' class="fas fa-globe-americas "></i></span>
-			              	</div>
-		              </div>
-		              <div class=" pl-4 col-lg-9">            
-		                <h3 class="d-flex  azul-titulos" style="font-weight: bold;" >Tecnologia</h3>
-		                <p class="d-flex  pb-2 fs-11" >
-		                  Aplicação de tecnologias consolidadas e modernas adequadas a nova realidade do mundo dos negócios.
+		              <div class="col-lg-2">
+                    <div class="rounded-circle d-sm-none d-flex m-auto" style="width: 65px; height: 65px; margin-left:-15px; background-color:rgb(175,206,235);">            		
+                      <img  class="m-auto"style="width: 40px;" src="img/i2.png">
+                    </div>
+                    <div class="rounded-circle d-sm-flex d-none mr-3 " style="width: 65px; height: 65px; margin-left:-15px; background-color:rgb(175,206,235);">            		
+                      <img  class="m-auto"style="width: 40px;" src="img/i2.png">
+                    </div>
+              </div>
+		              <div class="col-lg-10" style="padding-left: 25px;">            
+		                <h3 class="d-sm-flex d-none" style="font-weight: bold;">Tecnologia</h3>
+		                <h3 class="d-sm-none d-flex justify-content-center" style="font-weight: bold;">Tecnologia</h3>
+		                <p class="d-flex pb-2 fs-11" >
+		                  Aplicação de tecnologias consolidadas e modernas, adequadas a nova realidade do mundo dos negócios.
 		                </p>
 		              </div>
 		              </div>
 		            </div>
 		            <div class="col-lg-4">
 		              <div class="row">
-		              <div class="col-lg-3">
-		              		<div class="rounded-circle d-flex mr-3" style="width: 65px; height: 65px; background-color:rgb(175,206,235);">            		
-				              	<span class="m-auto azul-titulos " ><i style='font-size:30px;' class="fas fa-cogs "></i></span>
-			              	</div></div>
-		              <div class=" pl-4 col-lg-9">            
-		                <h3 class="d-flex  azul-titulos" style="font-weight: bold;" >Serviços</h3>
+		              <div class="col-lg-2  ">
+                    <div class="rounded-circle d-sm-flex d-none " style="width: 65px; height: 65px; margin-left:-15px; background-color:rgb(175,206,235);">            		
+                      <img  class="m-auto"style="width: 40px;" src="img/i3.png">
+                    </div>
+                    <div class="rounded-circle d-sm-none d-flex m-auto " style="width: 65px; height: 65px; margin-left:-15px; background-color:rgb(175,206,235);">            		
+                      <img  class="m-auto"style="width: 40px;" src="img/i3.png">
+                    </div>
+                </div>
+		              <div class=" col-lg-10" style="padding-left: 25px;">            
+		                <h3 class="d-sm-flex d-none  " style="font-weight: bold;" >Serviços</h3>
+		                <h3 class="d-flex  d-sm-none justify-content-center" style="font-weight: bold;" >Serviços</h3>
 		                <p class="d-flex  pb-2 fs-11" >
 		                  Prestação de serviços profissionais especializados com foco na agilidade operacional e racionalização de custos.
 		                </p>
@@ -148,7 +166,7 @@
           <div class="row pt-5 pb-5" >
           	<div class="col-sm-12">
           		<h1 class="pt-5 pb-3 font-weight-bold" style="font-size: 2.8em; color: #215972;">Laporte.</h1>
-          		<h1 class="pb-2 font-weight-bold text-dark" style="font-size: 2.8em;">Criatividade, tecnologia e competências em Consultoria e Serviços.	</h1>
+          		<h1 class="pb-2 font-weight-bold text-dark" style="font-size: 2.8em;">Porque estamos em novos tempos,<br> que requerem ação e atitude.</h1>
 
           		<p class="pt-4" style="font-size: 1.4em;">
                   Nós ajudamos sua empresa a enfrentar os desafios impostos pelos cenários de transformações digitais e a superar adversidades mercadológicas e organizacionais.
@@ -164,8 +182,8 @@
         </div>
       </section>
       <div class="container wid-80">
-        <div class="row pt-5 pb-3 ">
-          <h3 class=" font-weight-bold mx-auto " style="color:#1f4e79">Metodologia <span class="orange-iten"> para Inovação</span></h3>
+        <div class="row pt-5 pb-5 ">
+          <h3 class=" font-weight-bold mx-auto pt-5 pb-2" style="color:#1f4e79">Metodologia <span class="orange-iten"> para Inovação</span></h3>
         </div>
         <div class="row">
           <div class="col-md-4 text-center">
@@ -184,7 +202,7 @@
             <p class="pb-4 fs-12">Foco na obtenção de resultados de impacto para o negócio e relevância estratégica.</p>            
           </div>
         </div>
-        <div class="row text-center my-5">
+        <div class="row text-center mt-5" style="margin-bottom: 80px;">
           <div class="col-md-12">
             <blockquote class="blockquote font-italic  text-center" >
               <p class="fs-12 ">“A Laporte atua com comprometimento e espírito de parceria. Nossos projetos e serviços<br> são executados para tornar realidade a sua visão e os seus objetivos de negócio.<br> Acreditamos que trabalhar com empatia e envolvimento é a melhor forma <br>de conquistar o sucesso em nossas iniciativas e nutrir a confiança de nossos Clientes.”</p>
@@ -216,8 +234,8 @@
                 </p>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-md-flex d-none pl-4 pt-2 justify-content-center" style="bottom:80px; left:150px;"><a href="alavancagem-tecnologica.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
-                    <div class="d-md-none d-flex  pl-4  justify-content-center" style="bottom:80px; left:150px;"><a href="alavancagem-tecnologica.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                    <div class="d-md-flex d-none pl-3 pt-2 justify-content-start" style="bottom:80px; left:150px;"><a href="alavancagem-tecnologica.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                    <div class="d-md-none d-flex  pl-4  justify-content-center" style="bottom:80px; left:150px;"><a href="alavancagem-tecnologica.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                   </div>
                 </div>
                 
@@ -231,8 +249,8 @@
                   Implementação de soluções tecnológicas para suportar a adoção de práticas inovadoras de mercado.</p>
                   <div class="row">
                     <div class="col-md-6">
-                      <div class="d-md-flex d-none pl-4 pt-5 justify-content-center  "><a href="estrategia-e-transformacao-digital.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
-                      <div class="d-flex d-md-none  pl-4 pt-2 justify-content-center  "><a href="estrategia-e-transformacao-digital.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                      <div class="d-md-flex d-none pl-3 pt-5 justify-content-start  "><a href="estrategia-e-transformacao-digital.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                      <div class="d-flex d-md-none  pl-4 pt-2 justify-content-center  "><a href="estrategia-e-transformacao-digital.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                     </div>
                   </div>
             </div>          
@@ -244,8 +262,8 @@
                 <p class=" col-md-6 pt-4 fs-14">Maximização da responsividade dos processos, através da cooperação entre pessoas e tecnologias para atingir novos patamares de resultados.</p>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-md-flex d-none pl-4 pt-5 justify-content-center "><a href="automatizacao-avancada.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
-                    <div class="d-flex d-md-none pl-4 pt-2 justify-content-center "><a href="automatizacao-avancada.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                    <div class="d-md-flex d-none pl-3 pt-5 justify-content-start "><a href="automatizacao-avancada.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                    <div class="d-flex d-md-none pl-4 pt-2 justify-content-center "><a href="automatizacao-avancada.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                   </div>
                 </div>
             </div>          
@@ -258,8 +276,8 @@
                 <p class=" col-md-6 pt-4 fs-14" >Aprimoramento operacional e administrativo, através de implementações tecnológicas, melhoria das atividades ou ajustes do modelo de trabalho.</p>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-md-flex d-none pl-4 pt-5 justify-content-center  "><a href="desenvolvimento-organizacional.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
-                    <div class="d-flex d-md-none pl-4 pt-2 justify-content-center  "><a href="desenvolvimento-organizacional.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                    <div class="d-md-flex d-none pl-3 pt-5 justify-content-start  "><a href="desenvolvimento-organizacional.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                    <div class="d-flex d-md-none pl-4 pt-2 justify-content-center  "><a href="desenvolvimento-organizacional.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                   </div>
                 </div>
             </div>          
@@ -271,7 +289,8 @@
                 <p class=" col-md-6 pt-4 fs-14" >Parceria estratégica para a gestão e operação da infraestrutura tecnológica com orientação a resultados.</p>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-flex pl-4 pt-2 justify-content-center  "><a href="outsourcing-da-ti.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                    <div class="d-md-flex d-none pl-3 pt-2 justify-content-start  "><a href="outsourcing-da-ti.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                    <div class="d-flex d-md-none pl-3 pt-2 justify-content-center  "><a href="outsourcing-da-ti.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                   </div>
                 </div>
             </div>          
@@ -279,12 +298,13 @@
           <div class="carousel-item justify-content-center" style="background-image: url(img/im6.jpg); height:450px; background-size: cover; background-position: center;";>
             <div class="container">
             	<h1 class="pt-5 d-sm-block d-none">Terceirização de <br> Recursos Humanos</h1>
-            	<h1 class="pt-2 d-sm-none">Terceirização de Recursos Humanos</h1>
+            	<h1 class="pt-2 d-sm-none">Terceirização de Recursos Profissionais</h1>
 
                 <p class=" col-md-6 pt-4 fs-14" >Suporte ao funcionamento das atividades organizacionais de sustentação empresarial.</p>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="d-flex pl-4 pt-5 justify-content-center  "><a href="terceirizacao-de-rh.html" class="btn btn-info btn-lg mb-4"> saiba mais</a></div>
+                    <div class="d-md-flex d-none pl-3 pt-5 justify-content-start  "><a href="terceirizacao-de-rh.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
+                    <div class="d-flex d-sm-none pl-4 pt-5 justify-content-center  "><a href="terceirizacao-de-rh.html" class="btn btn-info btn-lg mb-4"> Explore</a></div>
                   </div>
                 </div>
             </div>          
@@ -308,7 +328,7 @@
       
       <footer >
       	<div class="container wid-80">
-          <div class="row ">
+          <div class="row  pt-4">
             <div class="col-md-4 mb-4 pl-1">
                 <h6 class="font-weight-bold">Laporte Tecnologia e Serviços © 2020</h6>
                 <span>Av. Rio Branco, 108 - 16º andar<br></span>
@@ -324,7 +344,7 @@
               </div>
             </div>
 
-            <div class="col-md-5 pb-4 pl-1 links-footer">
+            <div class="col-md-5 pb-4 pl-1 links-footer textooo">
                 <span class="font-weight-bold" style="color: rgb(175,171,171);">SOBRE A LAPORTE<br></span>
                 <span><a href="valores.html">NOSSOS VALORES</a> <br></span>
                 <span><a href="contato.html">CONTATO</a> <br><br></span>
@@ -334,7 +354,7 @@
                 <span><a href="alavancagem-tecnologica.html">ALAVANCAGEM TECNOLÓGICA PARA INOVAÇÃO</a> <br></span>
                 <span><a href="desenvolvimento-organizacional.html">DESENVOLVIMENTO ORGANIZACIONAL</a> <br></span>
                 <span><a href="outsourcing-da-ti.html">OUTSOURCING DA TECNOLOGIA DA INFORMAÇÃO</a> <br></span>
-                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS HUMANOS</a> <br></span>
+                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS PROFISSIONAIS</a> <br></span>
 
 
                           
@@ -354,5 +374,8 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      </body>
+     
+          
+    <script  src="css/js.js">  </script>      
+    </body>
   </html>

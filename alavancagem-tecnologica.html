@@ -15,7 +15,9 @@
    
     <title>Alavancagem Tecnológica Para Inovação</title>
   </head>
-  <body>
+  <body oncontextmenu="return false" ondragstart="return false"
+
+onselectstart="return false">
   <!--
   #215972 azul logo
   #235f95 tipo
@@ -26,8 +28,9 @@
     
       
       <nav style="background-color: #1f4e79 ;" class="pt-1 pb-2 navbar navbar-expand-lg navbar-light">        
-        <div class="container  wid-80" >
-           <a href="index.html"><img class="t" src="img/logo-laporte-topo.png" style="height:48.5px; padding-top: 10px"/></a>
+        <div class="container pt-1 wid-80 ">
+          <div class="d-sm-block d-none"><a href="index.html"><img  src="img/logo-laporte-topo.png"  style="height:38.5px; margin-left: -10px;" /></a></div>
+          <div class="d-sm-none d-block"><a href="index.html"><img  src="img/logo-laporte-topo3.png" style=" width:150.3px; left:0"/></a>;</div>
           
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>           
@@ -37,21 +40,22 @@
                 <ul class="navbar-nav ml-auto" style="font-size: 1.1em;">
                  
                   <li class="nav-item  dropdown pr-2">
-                    <a class="nav-link" href="index.html"><b>A Laporte</b></a>
-                    <div class="dropdown-menu-d">
+                    
+                   <a class="nav-link" id="bg-1" href="index.html"><b>A Laporte</b></a>
+                    <div class="dropdown-menu-d" id="item-1">
                       <a class="dropdown-item-d" href="index.html">Home</a>
                       <a class="dropdown-item-d" href="valores.html">Nossos Valores</a>                     
                     </div>  
                   </li>
                   <li class="nav-item  dropdown pr-2" >
-                    <a class="nav-link"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
-                    <div class="dropdown-menu-d ">
+                  <a class="nav-link" id="bg-2"  href="solucoes-e-servicos.html"><b>Soluções e Serviços</b></a>
+                    <div class="dropdown-menu-d" id="item-2">
                       <a class="dropdown-item-d" href="estrategia-e-transformacao-digital.html">Estratégia e Transformação Digital</a>
                       <a class="dropdown-item-d" href="automatizacao-avancada.html">Automatização Avançada de Atividades Humanas</a>
                       <a class="dropdown-item-d" href="alavancagem-tecnologica.html">Alavancagem Tecnológica para Inovação</a>
                       <a class="dropdown-item-d" href="desenvolvimento-organizacional.html">Desenvolvimento Organizacional</a>
                       <a class="dropdown-item-d" href="outsourcing-da-ti.html">Outsourcing da Tecnologia da Informação</a>
-                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Humanos</a>
+                      <a class="dropdown-item-d" href="terceirizacao-de-rh.html">Terceirização de Recursos Profissionais</a>
                     </div>               
                   </li>
                   <li class="nav-item pr-2">
@@ -205,7 +209,7 @@
 
 		<footer >
       	<div class="container wid-80">
-          <div class="row ">
+          <div class="row  pt-4">
             <div class="col-md-4 mb-4 pl-1">
                 <h6 class="font-weight-bold">Laporte Tecnologia e Serviços © 2020</h6>
                 <span>Av. Rio Branco, 108 - 16º andar<br></span>
@@ -222,7 +226,7 @@
             </div>
             </div>
 
-            <div class="col-md-5 pb-4 pl-1 links-footer">
+            <div class="col-md-5 pb-4 pl-1 links-footer textooo">
                 <span class="font-weight-bold" style="color: rgb(175,171,171);">SOBRE A LAPORTE<br></span>
                 <span><a href="valores.html">NOSSOS VALORES</a> <br></span>
                 <span><a href="contato.html">CONTATO</a> <br><br></span>
@@ -232,7 +236,7 @@
                 <span><a href="alavancagem-tecnologica.html">ALAVANCAGEM TECNOLÓGICA PARA INOVAÇÃO</a> <br></span>
                 <span><a href="desenvolvimento-organizacional.html">DESENVOLVIMENTO ORGANIZACIONAL</a> <br></span>
                 <span><a href="outsourcing-da-ti.html">OUTSOURCING DA TECNOLOGIA DA INFORMAÇÃO</a> <br></span>
-                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS HUMANOS</a> <br></span>
+                <span><a href="terceirizacao-de-rh.html">TERCEIRIZAÇÃO DE RECURSOS PROFISSIONAIS</a> <br></span>
 
 
                           
@@ -255,5 +259,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
+    <script  src="css/js.js">  </script>      
     </body>
 </html>
