@@ -1,4 +1,6 @@
-
+.js_enabled #cookie-message {
+  display: none;
+}
   html, body{
     overflow-x: hidden;
     scroll-behavior: smooth; 
