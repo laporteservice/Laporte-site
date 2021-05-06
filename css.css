@@ -842,6 +842,7 @@ footer span {
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
+    border:0
 }
 
 .dropdown-item-d:hover,
@@ -941,4 +942,39 @@ nav {
     color: #595959;
     font-family: rodape;
     font-weight: bold;
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;  
+    left: -100%;
+    right: 100%;
+    margin-top: 0px;   
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    
+}
+
+.dropdown-submenu-menor {
+    position: relative;
+    width: 220px;
+}
+
+.dropdown-submenu-menor>.dropdown-menu {
+    top: 0;  
+    left: -100%;
+    right: 100%;
+    margin-top: 0px;   
+}
+
+.dropdown-submenu-menor:hover>.dropdown-menu {
+    display: block;
+    
 }

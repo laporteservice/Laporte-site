@@ -18,7 +18,8 @@ document.getElementById("item-2").addEventListener("mouseout", mouseOut2);
 document.getElementById("bg-2").addEventListener("mouseout", mouseOut2);      
 
 function mouseOver2() {
-  document.getElementById("bg-2").style.backgroundColor = "#5b9bd5 ";
+  console.log('vamo ve se vai')
+  //document.getElementById("bg-2").style.backgroundColor = "#5b9bd5 ";
 }    
 function mouseOut2() {
   document.getElementById("bg-2").style.backgroundColor = "transparent";          
