@@ -962,19 +962,4 @@ nav {
     
 }
 
-.dropdown-submenu-menor {
-    position: relative;
-    width: 220px;
-}
 
-.dropdown-submenu-menor>.dropdown-menu {
-    top: 0;  
-    left: -100%;
-    right: 100%;
-    margin-top: 0px;   
-}
-
-.dropdown-submenu-menor:hover>.dropdown-menu {
-    display: block;
-    
-}
