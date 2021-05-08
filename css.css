@@ -130,6 +130,7 @@ body {
 }
 
 .bg-headers {
+    margin-top: 56px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -960,6 +961,22 @@ nav {
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
     
+}
+
+
+.anima-down {
+    animation: animadown 1s
+}
+
+@keyframes animadown {
+    from {
+        top: -56px;
+        opacity: 0
+    }
+    to {
+        padding-top: 0;
+        opacity: 1
+    }
 }
 
 
