@@ -979,4 +979,23 @@ nav {
     }
 }
 
+.anima-up {
+    animation: animaup 1s
+}
 
+@keyframes animaup {
+    from {
+        top: 0px;
+        opacity: 1
+    }
+    to {
+        top: -56px;
+        opacity: 0
+    }
+}
+
+
+.nolink:hover{
+    text-decoration: none;
+    color: #215972;
+}

@@ -21,36 +21,40 @@ function mouseOver2() {
 function mouseOut2() {
   document.getElementById("bg-2").style.backgroundColor = "transparent";
 }
-
-document.addEventListener("scroll", bringMenu);
-
+var menuindex = document.getElementById("menu-index")
+var state = "";
  function showIn(){
-   document.getElementById("menu-index").style.display="block";
-   var classes = document.getElementById("menu-index").className
-   document.getElementById("menu-index").className = classes + " anima-down"
+   menuindex.style.display="block";
+   menuindex.classList.remove("anima-up")
+   var classes = menuindex.className
+   menuindex.className = classes + " anima-down"
+  state = "apareceu"
+  
  }
 
- function hideIn(){
-  document.getElementById("menu-index").style.display="none";
-  var classes = document.getElementById("menu-index").className
-   document.getElementById("menu-index").className = classes + " anima-up"
+ function hideIn(){     
+   setTimeout(function(){menuindex.style.display="none";},500)  
+  menuindex.classList.remove("anima-down")
+  menuindex.classList.add("anima-up")
+  console.log(menuindex.classList)
+  state=""; 
 }
 
 
 
 function bringMenu() {
-  console.log(window.pageYOffset)
-
+ 
   if(window.pageYOffset > 66){
     showIn();
-  }else{
+  }else if(window.pageYOffset<66 & state==="apareceu"){
     hideIn();
   }
+}
 
  /* if (document.body.scroll()) {
     document.getElementById("menu-index").style.display = "block";
   }*/
-}
+
 
 /*var lastScrollTop = 0;
 
