@@ -127,31 +127,34 @@ onselectstart="return false">
         </div>   
         <div class="row pt-4 pb-5" >
           <div class="col-md-8 m-auto">
-          <form class="bg-light p-5  m-auto" style="border-radius: 20px;">
+
+            
+          <form name="submit-to-google-sheet" class="bg-light p-5  m-auto" style="border-radius: 20px;">
             <div class="form-row">
               <div class="form-group col-md-12">
                 <label for="inputEmail4">Nome</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Nome">
+                <input name="nome" type="text" class="form-control" id="inputName" placeholder="Nome" required>
               </div>
               
             </div>
             <div class="form-group">
               <label for="inputAddress">Email</label>
-              <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+              <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" required>
             </div>
             <div class="form-group">
               <label for="inputAddress2">Empresa</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Empresa">
+              <input name="empresa" type="text" class="form-control" id="inputCompany" placeholder="Empresa">
             </div>
             <div class="form-row">
               <div class="form-group col-md-10">
                 <label for="inputCity">Cidade</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                <input name="cidade" type="text" class="form-control" id="inputCity" placeholder="Cidade">
               </div>
               <div class="form-group col-md-2">
                 <label for="inputState">UF</label>
                 <select id="inputState" class="form-control">
-                  <option selected>RJ</option>
+                  <option selected>Selecionar</option>
+                  <option>RJ</option>
                   <option>SP</option>
                 </select>
               </div>       
@@ -159,12 +162,12 @@ onselectstart="return false">
             
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Mensagem</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+                <textarea name="messageInput" class="form-control" id="inputTextArea" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
               </div>
-           
-            
+                      
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
+
         </div>
         </div><!--fimrowgeral--> 
       </div>
@@ -207,9 +210,8 @@ onselectstart="return false">
             
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Mensagem</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
-              </div>
-           
+                <textarea class="form-control" id="inputTextArea" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+              </div>          
             
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
@@ -272,6 +274,27 @@ onselectstart="return false">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
-    <script  src="css/js.js">  </script>      
+    <script  src="css/js.js">  </script>   
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script> 
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzP8uuFgdfcgT2Apc_Y5fqY7GZ9xx3i8Zmidzkq62o_7BDK2HZzls9cCxZ_zPQklQOa/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+        document.getElementById('inputName').value = ''
+        document.getElementById('inputEmail').value = ''
+        document.getElementById('inputCompany').value = ''
+        document.getElementById('inputCity').value = ''
+        document.getElementById('inputState').value = ''
+        document.getElementById('inputTextArea').value = ''
+      })
+    </script>  
     </body>
 </html>
