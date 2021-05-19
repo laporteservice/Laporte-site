@@ -12,11 +12,11 @@
    	<link  href="css/brands.css" rel="stylesheet"> 	
    	<link href="css/solid.css" rel="stylesheet">
     <link rel="stylesheet"  href="css.css"> 
-    <link rel="stylesheet" href="w3.css">
+    
      
       <title>Projetos</title>
     </head>
-    <body oncontextmenu="return false" ondragstart="return false"
+    <body onhashchange="maiscem()" oncontextmenu="return false" ondragstart="return false"
 
 onselectstart="return false">
     <!--
@@ -231,7 +231,7 @@ onselectstart="return false">
           <div class="row " >
             
             <div class="col-md-3 bgp1 " style="min-height: 100px;">
-              <a href="#pro1" style="text-decoration: none; text-decoration-color: none; color:#212529;" ><h6 class="text-center mt-4 pb-3 font-weight-bold fs-11" style="line-height:1;" >Estratégia de TIC e <br> Desenvolvimento<br> Organizacional</h6></a>
+              <a href="#pro1"  style="text-decoration: none; text-decoration-color: none; color:#212529;"  ><h6 class="text-center mt-4 pb-3 font-weight-bold fs-11" style="line-height:1;" >Estratégia de TIC e <br> Desenvolvimento<br> Organizacional</h6></a>
             </div>
             <div class="col-md-3 bgp2 " style="min-height: 100px;">
               <a href="#pro2" style="text-decoration: none; text-decoration-color: none; color:#212529;" ><h6 class="text-center mt-4 pb-3 font-weight-bold fs-11" style="line-height:1;" >Estratégia para<br> Tecnologia da<br> Informação e <br>Comunicação</h6></a>
@@ -1672,7 +1672,16 @@ onselectstart="return false">
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+      <script>
+       
+            function maiscem(){
+              setTimeout(() => {
+                
+                document.documentElement.scrollTop = pageYOffset -50;
+                         
+            },800)}
+          
+      </script>
       
       <script  src="css/js.js">  </script>      
     </body>

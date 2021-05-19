@@ -999,3 +999,10 @@ nav {
     text-decoration: none;
     color: #215972;
 }
+
+.cursorProjeto {
+    cursor: pointer;
+    text-decoration: none; 
+    text-decoration-color: none;
+     color:#212529;
+}
