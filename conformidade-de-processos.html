@@ -15,10 +15,12 @@
   <link href="css/solid.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css.css">
 
-  <title>Conformidade de Processos</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/laportefav.ico">
+
+    <title>Conformidade de Processos</title>
 </head>
 
-<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<body onhashchange="maiscem()"    oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
   <!--
   #215972 azul logo
   #235f95 tipo
@@ -383,6 +385,17 @@
     crossorigin="anonymous"></script>
 
   <script src="css/js.js">  </script>
+  <script>
+
+    function maiscem() {      
+        setTimeout(() => {
+          document.documentElement.scrollTop = pageYOffset - 80;
+        }, 800)
+      }
+      
+
+  </script>
+
 </body>
 
 </html>
