@@ -123,7 +123,7 @@ onselectstart="return false">
 
    
     <section style="background-color:rgb(82,101,128)">
-      <div class="container wid-80 d-md-block d-none"> 
+      <div class="container wid-100 d-block"> 
         <div class="row ">
           <h4 class="text-white  m-auto pt-3">Deixe aqui sua mensagem</h4>
         </div>   
@@ -136,8 +136,7 @@ onselectstart="return false">
               <div class="form-group col-md-12">
                 <label for="inputEmail4">Nome</label>
                 <input name="nome" type="text" class="form-control" id="inputName" placeholder="Nome" required>
-              </div>
-              
+              </div>              
             </div>
             <div class="form-group">
               <label for="inputAddress">Email</label>
@@ -199,81 +198,7 @@ onselectstart="return false">
         </div><!--fimrowgeral--> 
       </div>
 
-      <div class="container wid-80 d-md-none d-block"> 
-        <div class="row ">
-          <h4 class="text-white  m-auto pt-3">Deixe aqui sua mensagem</h4>
-        </div>   
-        <div class="row pt-4 pb-5" >
-          <div class="col-md-12 m-auto">
-
-          <form name="submit-to-google-sheet-mobile" class="bg-light p-3  m-auto" style="border-radius: 20px;">
-            <div class="form-row">
-              <div class="form-group col-md-12">
-                <label for="inputEmail4">Nome</label>
-                <input name="nome" type="text" class="form-control" id="inputName2" placeholder="Nome" required>
-                
-              </div>
-              
-            </div>
-            <div class="form-group">
-              <label for="inputAddress">Email</label>
-              <input name="email" type="email" class="form-control" id="inputEmail2" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Empresa (Opcional)</label>
-              <input name="empresa" type="text" class="form-control" id="inputCompany2" placeholder="Empresa">
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-10">
-                <label for="inputCity">Cidade</label>
-                <input name="cidade" type="text" class="form-control" id="inputCity2" placeholder="Cidade" required>
-              </div>
-
-              <div class="form-group col-md-2">
-                <label for="inputState">UF</label>
-                <select name="uf" id="inputState2" class="form-control"  required>
-                  <option value="">Selecionar</option>
-                  <option value="AC">Acre</option>
-                  <option value="AL">Alagoas</option>
-                  <option value="AP">Amapá</option>
-                  <option value="AM">Amazonas</option>
-                  <option value="BA">Bahia</option>
-                  <option value="CE">Ceará</option>
-                  <option value="DF">Distrito Federal</option>
-                  <option value="ES">Espírito Santo</option>
-                  <option value="GO">Goiás</option>
-                  <option value="MA">Maranhão</option>
-                  <option value="MT">Mato Grosso</option>
-                  <option value="MS">Mato Grosso do Sul</option>
-                  <option value="MG">Minas Gerais</option>
-                  <option value="PA">Pará</option>
-                  <option value="PB">Paraíba</option>
-                  <option value="PR">Paraná</option>
-                  <option value="PE">Pernambuco</option>
-                  <option value="PI">Piauí</option>
-                  <option value="RJ">Rio de Janeiro</option>
-                  <option value="RN">Rio Grande do Norte</option>
-                  <option value="RS">Rio Grande do Sul</option>
-                  <option value="RO">Rondônia</option>
-                  <option value="RR">Roraima</option>
-                  <option value="SC">Santa Catarina</option>
-                  <option value="SP">São Paulo</option>
-                  <option value="SE">Sergipe</option>
-                  <option value="TO">Tocantins</option>
-                </select>
-              </div>       
-            </div>
-            
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Mensagem</label>
-                <textarea name="messageInput" class="form-control" id="inputTextArea2" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
-              </div>          
-            
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-        </div>
-        </div><!--fimrowgeral--> 
-      </div>
+      
          
     </section>
     <!-------------------------------------------FOOOOOOOOOOOOOOOOOTEEEEEER---------------------------------------------------------------------------->
@@ -337,8 +262,7 @@ onselectstart="return false">
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbzP8uuFgdfcgT2Apc_Y5fqY7GZ9xx3i8Zmidzkq62o_7BDK2HZzls9cCxZ_zPQklQOa/exec'
-      const form = document.forms['submit-to-google-sheet']
-      const formMobile = document.forms['submit-to-google-sheet-mobile']
+      const form = document.forms['submit-to-google-sheet']      
     
       form.addEventListener('submit', e => {
         e.preventDefault()
@@ -353,18 +277,7 @@ onselectstart="return false">
         document.getElementById('inputTextArea').value = ''
       })
 
-      formMobile.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-        document.getElementById('inputName2').value = ''
-        document.getElementById('inputEmail2').value = ''
-        document.getElementById('inputCompany2').value = ''
-        document.getElementById('inputCity2').value = ''
-        document.getElementById('inputState2').value = ''
-        document.getElementById('inputTextArea2').value = ''
-      })
+     
     </script>  
     </body>
 </html>
