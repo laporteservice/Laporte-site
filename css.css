@@ -1000,6 +1000,23 @@ nav {
     color: #215972;
 }
 
+.nolinkpreto{
+    color:#000000;
+}
+.nolinkpreto:hover{
+    text-decoration: none;
+    color:#000000;
+}
+
+.nolinkbranco{
+    color: #fff;
+}
+.nolinkbranco:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+
 .cursorProjeto {
     cursor: pointer;
     text-decoration: none; 
