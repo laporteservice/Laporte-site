@@ -83,7 +83,7 @@ body {
 }
 
 .bg-header {
-    background-image: url(img/bgpraia4.png);
+    background-image: url(img/bgnuvem.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -267,6 +267,9 @@ body {
 
 .orange-iten {
     color: #FC7608;
+}
+.bg-orange{
+   background-color:#FC7608;
 }
 
 .azul-logo {
