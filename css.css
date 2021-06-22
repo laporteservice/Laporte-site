@@ -1026,3 +1026,13 @@ nav {
     text-decoration-color: none;
      color:#212529;
 }
+
+@media (min-width: 1500px) {
+    .d-xxl-none {
+      display: none !important;
+    }
+ 
+    .d-xxl-block {
+      display: block !important;
+    }
+}
