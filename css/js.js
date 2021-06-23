@@ -35,8 +35,7 @@ var state = "";
  function hideIn(){     
    setTimeout(function(){menuindex.style.display="none";},500)  
   menuindex.classList.remove("anima-down")
-  menuindex.classList.add("anima-up")
-  console.log(menuindex.classList)
+  menuindex.classList.add("anima-up")  
   state=""; 
 }
 
